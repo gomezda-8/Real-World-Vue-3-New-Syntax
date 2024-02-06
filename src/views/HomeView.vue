@@ -40,7 +40,7 @@ const events = ref([
 </script>
 
 <template>
-  <h>Event For Good</h>
+  <h1>Event For Good</h1>
   <div class="events">
     <EventCard v-for="event in events" :key="event.id" :event="event" />
   </div>
